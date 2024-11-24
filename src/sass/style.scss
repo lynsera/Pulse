@@ -1,0 +1,34 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'libs/slick';
+@import 'libs/aos';
+
+
+
+@import '../sass/base/variables';
+
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+@import '../sass/blocks/promo';
+@import '../sass/blocks/header';
+@import '../sass/blocks/buttons';
+@import '../sass/blocks/advantage';
+@import '../sass/blocks/title';
+@import '../sass/blocks/consultation';
+@import '../sass/blocks/forms';
+@import '../sass/blocks/carousel';
+@import '../sass/blocks/catalog';
+@import '../sass/blocks/reviews';
+@import '../sass/blocks/footer.scss';
+@import '../sass/blocks/_modal';
+@import '../sass/blocks/pageup';
+@import '../sass/base/animation';
+// Импорт медиа-запросов
+@import '../sass/base/media';
